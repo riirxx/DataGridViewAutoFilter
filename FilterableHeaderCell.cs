@@ -1,3 +1,12 @@
+using System;
+using System.Data;
+using System.Drawing;
+using System.Windows.Forms;
+using ClassLibrary;
+using DevComponents.DotNetBar.Controls;
+using System.Collections.Generic;
+using System.Linq;
+using System.Drawing.Drawing2D;
 public class FilterableHeaderCell : DataGridViewColumnHeaderCell
     {
         private Rectangle dropdownButtonRect = Rectangle.Empty;
